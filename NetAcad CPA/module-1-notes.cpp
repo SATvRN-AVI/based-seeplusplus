@@ -12,8 +12,6 @@ data.
 */
 
 
-
-
 using namespace std;
 
 /*
@@ -30,3 +28,20 @@ int main()
     cout << "Hello World!";
     return 0;
 }
+
+/* 
+Functions, similar to the functions we use in math, allow us to construct logical blocks of code. The items we put
+within the function are known as function arguments. The arguments in this case are within the function body, which
+is between the "{ }". What we get out of the function are called function results. Out of all the different blocks 
+we'll use in our code, the one that will always be present is our function with the title "main". Before the name of 
+our function, we have to declare what type of function "main" will be; in this case we use "int" which stands for 
+"integer". NOTE: The names of functions are subject to rigid constraints, more on this later. 
+*/
+
+/*
+Functions use three sets of info:
+    What is the result of the function? (In this case it's "integer")
+    What is the name of the function? (We've named the function "main")
+    How many arguments does the function accept and what are their names? (No arguments required, they would be
+    found between the parentheses after the name)
+*/
