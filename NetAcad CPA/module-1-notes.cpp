@@ -1,5 +1,3 @@
-#include <iostream> 
-
 /*
 Notice the "#" mark in the beginning here. This is referred to as a "Preprocessor directive"
 It's function is a seperate part for the compiler to read and then refer off of when it 
@@ -11,8 +9,7 @@ the incorrect syntax. "iostream" stands for input/output stream, referring to ou
 data. 
 */
 
-
-using namespace std;
+#include <iostream> 
 
 /*
 "namespace" is an abstract grouping of unique entities, which in this case we specify the "std" group. We can use
@@ -21,13 +18,7 @@ namespaces to divide our code into logical groups by declaring various types, fu
 namespace with "std" above, we'd have to specify the "std" entity as a prefix for each command, like "std::cout"
 */
 
-
-
-int main()
-{
-    cout << "Hello World!";
-    return 0;
-}
+using namespace std;
 
 /* 
 Functions, similar to the functions we use in math, allow us to construct logical blocks of code. The items we put
@@ -36,6 +27,29 @@ is between the "{ }". What we get out of the function are called function result
 we'll use in our code, the one that will always be present is our function with the title "main". Before the name of 
 our function, we have to declare what type of function "main" will be; in this case we use "int" which stands for 
 "integer". NOTE: The names of functions are subject to rigid constraints, more on this later. 
+*/
+
+int main()
+{
+    cout << "Hello World!";
+    return 0;
+}
+
+/*
+When we enter the "return" command after our object, we're essentially telling the function we declared to return a
+value that's specified by our function-return type (hint: that's the "int" before the function name.) Because our
+function is returning a string which we have not assigned any integer value, when we set "return" to "0", our program
+will run and will meet the requirements needed for the return type. If we entered 1, that would mean the program
+encountered an error.  
+*/
+
+
+
+/*
+The "cout" *object* is an entity that needs to be fed with information that is to be displayed on screen. For this,
+we feed this object raw text to be displayed for humans to read. This is known as a "string." The "<<" is called a 
+digraph but within our function is known as an "operator", meaning that the characters are performing a requested
+operation in conjunction with our object. 
 */
 
 /*
