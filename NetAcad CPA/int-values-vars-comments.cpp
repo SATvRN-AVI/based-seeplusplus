@@ -19,7 +19,7 @@ using namespace std;
 
 int main() {
     int counter;
-    int variable_1, account_balace, invoices;
+    int variable_1, account_balance, invoices;
 
     counter = 1;
 
@@ -31,9 +31,26 @@ int main() {
 
     x = x + 1;
 
+    float y = 2.5;
 
+    int i = 13;
+
+    int j = 5;
+
+    int k = i % j;
+
+    cout << k;
 
 }
+/*
+The variable "y" which we assigned a value of 2.5 is considered a floating
+point variable. A floating point number is essential a number with a fractional
+part after the decimal. Whenever we specify a number with a decmal, even if the 
+number after the decimal is 0, say "4.0", this is still a float. Also, when we 
+want to denote scientific notation, we can use the common mathematical notation,
+"E" as in 3E8, which would be 3 * 10^8. We use float when we want to perform
+floating point math on variables to return a higher degree of accuracy. 
+*/
 
 /* 
 Above is some practice with variables and integers and the assignment
