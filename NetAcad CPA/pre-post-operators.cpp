@@ -24,5 +24,8 @@ int main() {
 }
 
 /*
-When we place the "++"
+When we place the "++" or some kind of decrement/increment operator BEFORE a value,
+we are asking the computer to add or subtract 1 to the value then return it's added
+result. If we palce the operator after the value, we're asking the computer to give us
+the initial value then add or subtract 1 to the value. 
 */
